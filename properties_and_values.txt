@@ -1,0 +1,88 @@
+property,allowed_values
+Author,
+Title,
+Publication_year,
+Journal,
+DOI,
+Blinding,"?, Double, NI, No, Single, Triple"
+Is_randomized,
+Number_of_arms,
+Inclusion_criteria,
+Exclusion_criteria,
+Comorbidity,
+Types_of_cancer,"?, Adrenal Cancer, Anal Cancer, Bile Duct Cancer, Bone and Soft Tissue Cancers, Bone and Soft Tissue Cancers - Chondrosarcoma, Bone and Soft Tissue Cancers - Ewing Sarcoma, Bone and Soft Tissue Cancers - Osteosarcoma, Bone and Soft Tissue Cancers - Rhabdomyosarcoma, Bone and Soft Tissue Cancers – Liposarcoma, Brain and Central Nervous System (CNS) Cancers, Brain and Central Nervous System (CNS) Cancers - Astrocytoma, Brain and Central Nervous System (CNS) Cancers - Glioblastoma, Brain and Central Nervous System (CNS) Cancers - High-Grade Glioma, Brain and Central Nervous System (CNS) Cancers - Meningioma, Breast Cancer, Breast Cancer - Ductal Carcinoma, Breast Cancer - Inflammatory Breast Cancer, Breast Cancer - Lobular Carcinoma, Breast Cancer - Triple-Negative Breast Cancer, Carcinosarcoma, Colorectal Cancer, Colorectal Cancer - Colon Cancer, Colorectal Cancer - Rectal Cancer, Eye Cancer, Eye Cancers - Retinoblastoma, Gastrointestinal Cancers, Gastrointestinal Cancers - Esophageal Cancer, Gastrointestinal Cancers - Gallbladder Cancer, Gastrointestinal Cancers - Gastric (Stomach) Cancer, Gastrointestinal Cancers - Liver Cancer, Gastrointestinal Cancers - Pancreatic Cancer, Genitourinary Cancers, Genitourinary Cancers - Bladder Cancer, Genitourinary Cancers - Kidney (Renal) Cancer, Genitourinary Cancers - Testicular Cancer, Genitourinary Cancers - Urethral Cancer, Gynecologic Cancers, Gynecologic Cancers - Cervical Cancer, Gynecologic Cancers - Endometrial Cancer, Gynecologic Cancers - Ovarian Cancer, Gynecologic Cancers - Uterine Cancer, Gynecologic Cancers - Vulvar Cancer, Head and Neck Cancers, Head and Neck Cancers - Ethmoid Sinus Cancer, Head and Neck Cancers - Laryngeal Cancer, Head and Neck Cancers - Nasopharyngeal Cancer, Head and Neck Cancers - Oral Cancer, Head and Neck Cancers - Oropharyngeal Cancer, Head and Neck Cancers - Thyroid Cancer, Head and Neck Cancers - Tongue Cancer, Hematologic Cancers, Hematologic Cancers - Leukemia (Acute Lyb7cd3706b4e1255c7d674cbd455fc243, Hematologic Cancers - Lymphoma (Hodgkin and Non-Hodgkin), Hematologic Cancers - Multiple Myeloma, Lung Cancer, Lung Cancer - Non-Small Cell Lung Cancer, Lung Cancer - Small Cell Lung Cancer, Mesothelioma, NI, Neuroblastoma, Other Cancers, Prostate Cancer, Skin Cancer, Skin Cancer - Basal Cell Carcinoma, Skin Cancer - Squamous Cell Carcinoma, Skin Cancer – Melanoma, Solid Malignancies, Stomach Cancer, Thymoma and Thymic Carcinoma, Unspecified Sarcoma"
+Stage_cancer,"?, Advanced Stage, Early Stage, NA, NI"
+Perspective,"?, NI, Prospective, Retrospective"
+Centralized,"?, Monocentric, Multicentric, NI"
+Drop-out,
+Intervention,
+Duration_in_days,
+Type_of_measurement,"?, AQoL-8D (Assessment of Quality of Life), ASAT (Auditory Sustained Attention Test), AUSCAN (Australian/Canadian Osteoarthritis Hand Index), Atomic absorption, Audiogram, BCPT (Breast Cancer Prevention Symptom Scales), BFI (Brief Fatigue Inventory), BIA (Bioelectrical impedance analysis), BPI-SF (Brief Pain Inventory - Short Form), Blood Test, CES-D (Center for Epidemiologic Studies - Depression Scale), CT (Computed Tomography), CTCAE (Common Terminology Criteria of Adverse Events), Chemiluminescent immunoassay, Cystoscopy, DXA (Dual energy X-ray Absorptiometry), Diary questionnaire, Dynamometer, ECOG Performance Status Scale (Eastern Cooperative Oncology Group), ELISA protocol (Enzyme-Linked Immunoabsorbent Assay), EORTC QLQ (European Organisation for Res4d5ff5ca58d0b3acd1da09ea001732fc, EQ-5D (European Quality of Life 5 Dimensions), ESAS (Edmonton Symptom Assessment Scale), Echo-color Doppler, Electronic monitoring device, Electrophysiological evaluation, FAACT (Functional Assessment of Anorexia-Cachexia Therapy), FACIT (Functional Assessment of Chronic Illness Therapy), FACT (Functional Assessment of Cancer Therapy), FGS (Hughes' Functional Grading Scale), FIQ (Fibromyalgia Impact Questionnaire), FLIE (Functional Living Index for Emesis), GFAAS (Graphite Furnace Atomic Absorption Spectrometry), GPS (Glasgow Prognostic Score), Genitourinary atrophy self-assessment tool, Global Charter Fatigue Scale, HADS (Hospital Anxiety and Depression Scale), HAQ-DI (Health Assessment Questionnaire-Disability Index), HFRDIS (Hot Flash Related Daily Interference Scale), HFS (Hot Flush Score), HGST Maximum (Handgrip Strength Test), HNQR (Head and Neck Radiotherapy Questionnaire), HSCS (High Sensitivity Cognitive Screen), Histological examination, ICI Test (Intracavernosal Injection Test), IIEF (International Index of Erectile Function), Indirect calorimetry, Interview, KPS (Karnofsky Performance Status), LASA (Linear Analogue Self-Assessment), LENT SOMA Scale (Late Effects on Normal ca82d3c85a422ea2023e355ea0ee4cf1, MADRS (Montgomery-Asberg Depression Rating Scale), MAT (Multinational Association of Suppor91f3e782e4d9671f555feb354fb66ed8, MENQOL (Menopause-Specific Quality of Life), MFI-20 (Multidimensional Fatigue Inventory-20), MFSI (Multidimensional Fatigue Symptom Inventory), MMSE (Mini-Mental State Exam), MOS SF-12 (Medical Outcomes Study/ 12-Item Short Form Health Survey), MPQ-SF (McGill Pain Questionnaire - Short Form), MRI (Magnetic Resonance Imaging), McDonald criteria, Measuring tape, NA, NCI Grading Scale (National Cancer Institute), NCI-CTC v.2 (National Cancer Institute-Common Toxic Criteria), NDS (Neurological Disability Score), NI, NRS (Numeric Rating Scale), NRS (Nutritional Risk Screening), NSS (Neurological Symptom Score), Neurologic examination, Neuropathy specific question, OMAS (Oral Mucositis Assessment Scale), Observation, Otoacoustic Emissions Testing, PAC-QoL (Patient Assessment of Constipation - Quality of Life), PG-SGA (Patient-Generated Subjective Global Assessment), PGIC (Physician Global Impression of Change), PHLF (Post Hepatectomy Liver Failure), PHS (Cognitive subscale of the Perceived Health Scale), POMS (Profile of Mood States), PROMIS (Patient-Reported Outcomes Measurement Information System), PSQ (Patient Satisfaction Questionnaire), PSQI (Pittsburgh Sleep Quality Index), Physical examination, Physical functioning (grip strength;6 minute walk;leg extension), PoSSe (Postoperative Symptom Severity Scale), Postoperative morbidity/ complications (c6bc5e1189616297b02b3af9c24c2766, QoR-40 (Quality of Recovery-40 Questionnaire), RDS (Radiation Dermatitis Severity), RECIST 1.0 Criteria (Response Evaluation Criteria in Solid Tumors), RPSAS (Radiation Proctopathy System Assessment Scale), RTOG Acute Radiation Morbidity Scoring C7b9dbd7a205ca728c85269ee09b9495c, Reidel-Seiffer tuning fork, Rhodes Inventory of Nausea, SF-36 (Short Form-36 Health Survey), SGIC (Subject Global Impression of Change), SI (Symptom Inventory questionnaire), SOMA (Subjective Objective Medical manag7418b2b3389e7111c0d21caf9ca059c3, SPECT (Single Photon Emission Computed Tomography), SPPB (Short Physical Performance Battery), Scale, Scintigraphy, Self-developed measurement instrument, Spectrophotometry, Symptom experience diary (NCCTG), TMT (Trail Making Test), TNS (Total Neuropathy Score), Thermometer, Three-stimulus drop technique (by Henkin), Toxicity criteria of RTOG (Radiation Thedf89ed032e918ff4fce412483f4d6225, Ultrasonography, Unspecified questionnaire, Urinalysis, VAS (Visual Analogue Scale), VMI (Vaginal Maturation Index), VNS (Verbal Numerical Scale), Volometer, WHO-Scale (World Health Organisation), Western Ontario and McMaster Osteoarthritis Index, Wound volume, pH-value"
+Current_cancer_therapy,"?, Active surveillance, Chemotherapy, Diverse, Hormone therapy, Immunotherapy, NI, No therapy, Radiation therapy, Radioiodine treatment, Stem cell or bone marrow transplant, Surgery, Targeted therapy"
+Previous_cancer_therapies,"?, Chemotherapy, Diverse, Hormone therapy, Immunotherapy, NI, No therapy, Radiation therapy, Radioiodine treatment, Stem cell or bone marrow transplant, Surgery, Targeted therapy"
+Dosage_and_regime,
+Number_of_participants_(arm),
+Arm_type,"?, Active control, Intervention, NI, Passive control, Placebo"
+Outcome_type,"?, NI, Others, Primary, Secondary"
+Outcome_timeline,
+Conflicts_of_interest,
+Funding,
+Outcome_name,"?, Additional medication, Anorexia/Cachexia, Antibodies, Anxiety, Appetite, Arterial inflow, BMD (Bone Mineral Density), Body composition, CINV (Chemotherapy-Induced Nausea and Vomiting), Carnitine level, Carotenoid concentration, Cerebral oedema, Cognitive functioning, Cognitive impairment, DFS (Disease-Free Survival), Depression, Dermatitis, Diarrhoe, Distress, Dysgeusia, EFS (Event-Free Survival), Ejection fraction, Emesis, Erectile dysfunction, Erythema, Esophagitis, Fatigue, Fever, Fibrosis, Folic acid level, Frequency of rescue analgesics, Functionality, Haematological indices, Haematological toxicity, Hand grip strength, Hand-foot syndrome, Hepatotoxicity, Hormone level, Hot flushes, Ileus (intestinal obstruction), Incidence of acute GVHD (Graft-Versus-Host Disease), Infection, Interaction with cancer treatment, LFS (Local-Free Survival), Laboratory parameters, Length of hospital stay, Lymphedema, MFS (Metastases-Free Survival), MTD (Maximum Tolerated Dose), Menopausal symptoms, Mental status/ function, Mood/Affect, Mortality rate, Mucositis, Musculoskeletal symptoms, NI, Nausea, Nausea and Vomiting, Nerve conduction velocity, Neurotoxicity, Neutropenia, Non-haematological indices, Nutrition status, OS (Overall Survival), Objective signs and subjective symptoms, Oral ulcus, Ototoxicity, PD (Pharmacodynamics), PFS (Progression-Free Survival), PK (Pharmacokinetics), PSA level (Prostate-Specific Antigen), PSADT (Prostate-Specific Antigen Doubling Time), Pain, Performance Status, Peripheral neuropathy, Pharyngitis, Physical functioning, Postoperative opiate consumption, Quality of life, REE (Resting Energy Expenditure), RFS (Recurrence-Free Survival), Recurrence rate, Reduction of complication rates, Relaxation, Restoration of bowel function after surgery, Salivary gland function, Selenium level, Seroconversion, Shoulder mobility, Side effects of androgen deprivation/suppression, Side effects of tooth extraction, Skeletal morbidity-free survival, Sleep, Stress, Taste alteration, Tea polyphenol uptake, Thromboembolic event rates, Toxicity, Treatment interruption, Tumor progression, Tumor response, Unspecified effects, Vaginal atrophy, Vitamin A level, Vitamin B12 level, Vitamin B17 level, Vitamin B6 level, Vitamin C level, Vitamin D level, Vitamin E level, Vomiting, Weight, Well-being, Wound healing, Wound odour, Xerostomia, Zinc level"
+_ERRC,
+_ERRT,
+Outcome_specification,
+Topic,"?, Acai berries, Acupuncture, Agaricus, Aloe vera, Amygdalin, Angelica sinensis, Annona muricata, Antrodia, Apigenin, Argan oil, Aromatherapy, Artemisia, Astragalus, Berberine, Biobran, Boswellia serrata, Breuss diet, Broccoli sprouts, Budwig diet, Cannabinoids, Capsaicin, Carnitine, Chlorella, Chronomedicine and Oncology, Chrysin, Cimicifuga, Co-enzyme Q10/ubiquinol, Colostrum, Cranberry, Curcumin, Dichloroacetate, Electroacupuncture, Enzymes (bromelain papain), FactorAF2, Fasting, Fermented wheat germ extract, Flor Essence, Essiac, Folic acid, Galavit, Gammalinolenic acid, Germanium, Ginger, Ginkgo, Ginseng, Glutamine, Glutathione, Glycyrrhiza glabra, Graviola, Green tea (EGCG), Guarana, Hericium erinaceus, Homeopathy, Honey, Hops, Hydrazine sulphate, Hyperthermia (whole body and electrotherapy), Indole-3-carbinol, Insulin potentiation therapy, Isoflavones and equol, Kaempferol, Kavakava, Kombucha, Lapacho, Linseed, Low-carbohydrate or ketogenic diet, Lutein, Lycopene, Macrobiotics, Magnolia, Massage, Medical mushrooms (coriolus/Maitake/Ganoderma/reishi), Melatonin, Metadon, Methylsulfonylmethane (MSM), Mind-body therapies, Mistletoe, NI, Neem, Nigella sativa, Noni, OPC (grape seed extract), Omega 6 fatty acids, Omega-3 fatty acids, Phellinus, Piper nigra, Polyerga, Pomegranate, Probiotics, Propolis, Prostasol, Qigong and Tai Chi, Quercetin, Reflexology, Reiki (Therapeutic Touch/Healing Touch/Polarity), Resveratrol, Rhodiola, Rhubarb, Rooibos, Selenium, Shiitake, Silymarin/marigold thistle, Soy, Spirulina, St. John's wort, Supportive therapy (NW), TCM, Thymus therapy, Ukrain, Uncaria (cat's claw), Valerian, Vitamin A (beta-carotene), Vitamin B1, Vitamin B12, Vitamin B2, Vitamin B6, Vitamin C, Vitamin D, Vitamin E, Wheatgrass, Yoga, Zeolites, Zinc"
+Setting,"?, Active surveillance, Adjuvant, Curative, NI, Neo-adjuvant, No therapy setting, Palliative"
+Cancer_stage_specification,
+Reference,
+Age_groups,"?, Adolescents and young adults (15-39), Adults (18+), Children (0-15), Elderly (65+), NI"
+Age_groups_specification,
+Power_analysis_performed,"?, NI, No, Yes"
+Reasons_given_for_samples_being_too_small_according_to_power_analysis,
+Ethnicity_mentioned,"?, NI, No, Yes"
+Possibility_of_attention_effects,"?, NA, NI, No, Yes"
+Possibility_of_placebo_effects,"?, NA, NI, No, Yes"
+Other_reasons,
+Correction_for_multiple_testing,"?, NA, NI, No, Yes"
+Measurement_of_compliance,"?, NA, NI, No, Yes"
+Blinding_reliable,"?, NA, NI, No, Yes"
+Check_whether_blinding_was_successful,"?, NA, NI, No, Yes"
+Consistent_reporting_in_numbers,"?, NI, No, Yes"
+Sufficient_washout_period,"?, NA, NI, No, Yes"
+Tested_for_carry-over_effects,"?, NA, NI, No, Yes"
+Were_sequence_effects_tested,"?, NA, NI, No, Yes"
+Comprehensive_and_coherent_reporting,"?, NI, No, Yes"
+Were_side_effects_systematically_recorded,"?, NA, NI, No, Yes"
+Effect_sizes_reported,"?, NA, NI, No, Yes"
+Ethics_/_CoI_/_Funding,"?, NI, No, Yes"
+Side_effects_taken_into_account_in_the_interpretation_of_the_results,"?, NA, NI, No, Yes"
+Cross-over,"?, NI, No, Yes"
+Side_Effects_/_Interactions,
+Drop-out_reasons,
+Countries_of_data_collection,"?, Afghanistan, Albania, Algeria, Andorra, Angola, Antigua & Deps, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Central African Rep, Chad, Chile, China, Colombia, Comoros, Congo, Congo (Democratic Rep), Costa Rica, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, East Timor, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Ethiopia, Europe, Fiji, Finland, France, Gabon, Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland (Republic), Israel, Italy, Ivory Coast, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, Korea North, Korea South, Kosovo, Kuwait, Kyrgyzstan, Laos, Latin America, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macedonia, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Myanmar (Burma), NI, Namibia, Nauru, Nepal, Netherlands, New Zealand, Nicaragua, Niger, Nigeria, North America, Norway, Oman, Pakistan, Palau, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russian Federation, Rwanda, Saint Vincent & the Grenadines, Samoa, San Marino, Sao Tome & Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, Somalia, South Africa, South Sudan, Spain, Sri Lanka, St Kitts & Nevis, St Lucia, Sudan, Suriname, Swaziland, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Tanzania, Thailand, Togo, Tonga, Trinidad & Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, United Arab Emirates, United Kingdom, United Kingdom - Great Britain, United States, United States - New York, United States - Texas, Uruguay, Uzbekistan, Vanuatu, Vatican City, Venezuela, Vietnam, Yemen, Zambia, Zimbabwe"
+Authors_Abstract,
+Specifications_on_cancer_therapies,
+Gender,"?, Female, Male, Mixed, NI"
+Gender_specifications,
+LoE,"-, 1a Oxford 2009, 1b Oxford 2009, 1c Oxford 2009, 2a Oxford 2009, 2b Oxford 2009, 2c Oxford 2009, 3a Oxford 2009, 3b Oxford 2009, 4 Oxford 2009, 5 Oxford 2009, ?, Level 1 Oxford 2011, Level 2 Oxford 2011, Level 3 Oxford 2011, Level 4 Oxford 2011, Level 5 Oxford 2011"
+N_randomized,
+Other_sources_of_bias,"?, NA, high risk, low risk, some concerns"
+Samples_sufficiently_large,"?, NA, NI, No, Yes"
+Bias_due_to_deviation_from_intended_intervention_(adhering_to_intervention),"?, NA, high risk, low risk, some concerns"
+Bias_due_to_deviation_from_intended_intervention_(assignment_to_intervention),"?, NA, high risk, low risk, some concerns"
+Bias_due_to_missing_outcome_data,"?, high risk, low risk, some concerns"
+Bias_arising_from_the_randomization_process,"?, high risk, low risk, some concerns"
+Bias_in_measurement_of_the_outcome,"?, high risk, low risk, some concerns"
+Bias_in_selection_of_the_reported_result,"?, high risk, low risk, some concerns"
+Overall_RoB_judgment,"?, high risk, low risk, some concerns"
+Results_during_intervention,
+Results_after_intervention,
+One-time_application,
+Analysis,"?, ITT Analysis, NI, PP Analysis, mITT Analysis"
+Specifications_on_analyses,
+Order_number,
+Additional_Notes,
+Study_Note,
+Sample_size_corresponds_to_power_analysis,"?, NA, NI, No, Yes"
+Other_explanations_for_an_effect_besides_the_investigated_intervention,"?, NI, No, Yes"
+Correct_use_of_parametric_and_non-parametric_tests,"?, NI, No, Yes"
