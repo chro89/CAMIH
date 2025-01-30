@@ -1,0 +1,21 @@
+<noinclude>
+{{#template_params:Outcome type (list;property=Outcome type)|Outcome name (list;property=Outcome name)|Outcome specification (property=Outcome specification)|Type of measurement (list;property=Type of measurement)|Timestamp measurement (property=Timestamp measurement)|Result (property=Result)|Bias arising from the randomization process (label=arising from the randomization process;property=Bias arising from the randomization process)|Bias due to deviation from intended intervention (assignment to intervention) (property=Bias due to deviation from intended intervention (assignment to intervention))|Bias due to deviation from intended intervention (adhering to intervention) (property=Bias due to deviation from intended intervention (adhering to intervention)) |Bias due to missing outcome data (property=Bias due to missing outcome data)|Bias in measurement of the outcome (property=Bias in measurement of the outcome)|Bias in selection of the reported result (property=Bias in selection of the reported result)|Other sources of bias (property=Other sources of bias)|Overall RoB judgment (property=Overall RoB judgment)}}
+</noinclude>
+{{#subobject:|
+|Outcome name={{{Outcome name|}}}|+sep=,
+|Outcome type={{{Outcome type|}}} 
+|Outcome specification={{{Outcome specification|}}}
+|Type of measurement={{{Type of measurement|}}}|+sep=,
+|Results during intervention={{{Results during intervention|}}}
+|Results after intervention={{{Results after intervention|}}}
+|Bias arising from the randomization process={{{Bias arising from the randomization process|}}}
+|Bias due to deviation from intended intervention (assignment to intervention)={{{Bias due to deviation from intended intervention (assignment to intervention)|}}}
+|Bias due to deviation from intended intervention (adhering to intervention)={{{Bias due to deviation from intended intervention (adhering to intervention) }}}
+|Bias due to missing outcome data={{{Bias due to missing outcome data|}}}
+|Bias in measurement of the outcome={{{Bias in measurement of the outcome|}}}
+|Bias in selection of the reported result={{{Bias in selection of the reported result|}}}
+|Other sources of bias={{{Other sources of bias|}}}
+|Overall RoB judgment={{{Overall RoB judgment|}}}
+|Outcome topic={{{Outcome topic|}}}|+sep=,
+|Order number={{{Order number|}}}
+}}

@@ -1,0 +1,34 @@
+<noinclude>
+{{#template_params:}}
+</noinclude>
+{| class="wikitable" style="width:100%;"
+|-
+! style="width:30%; text-align:left;" |  Arm type {{#info: Active control: group receives active treatment; 
+Passive control: for example treatment as usual, waiting control, no treatment|note}}
+| {{{2}}}
+|-
+! style="text-align:left;" | Number of participants (arm) {{#info: N randomized|note}}
+| {{{3}}}
+|-
+! style="text-align:left;" | Drop-out {{#info: Number of participants who left the study for any reason or did not provide information on every data collection date|note}}
+| {{{4}}}
+|-
+! style="text-align:left;" | Drop-out reasons
+| {{{5}}}
+|-
+! style="text-align:left;" | Intervention
+| {{{6}}}
+|-
+! style="text-align:left;" | Dosage and regime
+| {{{7}}}
+|-
+! style="text-align:left;" | One-time application
+| {{{8}}}
+|-
+! style="text-align:left;" | Duration in days {{#info: For long-term interventions, the number of days is an estimation.
+A value of -999 indicates that the exact duration cannot be extracted from the study due to ambiguous or incomplete information. See ''Outcome timeline'' or ''Dosage and regime'' for further information.|note}}
+| {{{9}}}
+|-
+! style="text-align:left;" | Side effects / Interactions
+| {{{10}}}
+|}

@@ -1,0 +1,39 @@
+<noinclude>
+{{#template_params:Title (property=Title)|Topic (list;property=Topic)|Author (property=Author)|Year (property=Publication year)|Journal (property=Journal)|DOI (property=DOI)|Authors Abstract (property=Authors Abstract)}}
+</noinclude>
+<includeonly>
+{|class="wikitable" style="width: 40em; font-size: 90%; border: 2px solid #3366cc; color: black; margin-bottom: 0.5em; margin-top: 0.2em; clear: right; text-align:left;"
+!style="text-align: center; color: #ffffff; background-color: #3366cc;" colspan="2"|<span style="font-size: larger;">Reference</span>
+|- 
+! style="width:20%;" |Title
+| [[Title::{{{Title|}}}]]
+|-
+! Topic
+| {{#arraymap:{{{Topic|}}}|,|x|[[Topic::x]]}}
+|-
+!  Author
+| [[Author::{{{Author|}}}|]]|{{#arraymap:{{{Author|}}}|;|x|[[x]]}}
+|-
+! Year
+| [[Publication year::{{{Year|}}}]]
+|-
+! Journal
+| [[Journal::{{{Journal|}}}]]
+|-
+! DOI 
+| [[DOI::{{{DOI|}}}]]
+|}
+[[Category:Publication]]
+= Author's Abstract {{#info: The abstract and the information and conclusions contained therein were written by the authors of the publication.|note}} =
+{| class="text"
+| style="text-align: justify"| [[Authors Abstract::{{{Authors Abstract|}}}]]
+|}
+<br>
+<br>
+<strong>This publication is referenced in the following studies:</strong>
+
+{{#ask:
+[[has subobject.Reference::{{SUBJECTPAGENAME}}]]
+|format=ol
+}}
+</includeonly>

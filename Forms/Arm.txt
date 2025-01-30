@@ -1,0 +1,27 @@
+<noinclude>
+This is the "ArmForm" form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=ArmForm}}
+
+</noinclude><includeonly>
+
+=Arms=
+{{{section|Arms|level=1}}}
+
+{{{for template|Arm Overview}}}
+{{{end template}}}
+
+{{{for template|Arm|multiple}}}
+'''Arm type:''' {{{field|Arm type|input type=radiobutton}}}
+'''Number of participants (arm):''' {{{field|Number of participants (arm)|input type=text|mandatory}}}
+'''Drop-out:''' {{{field|Drop-out|input type=text|mandatory}}}
+'''Intervention:''' {{{field|Intervention|input type=text|mandatory}}}
+'''Dosage and regime:''' {{{field|Dosage and regime|input type=text|mandatory}}}
+'''Side effects:''' {{{field|Side effects|input type=text|mandatory}}}
+'''Interactions:''' {{{field|Interactions|input type=text|mandatory}}}
+'''Duration in days:''' {{{field|Duration in days|input type=regexp|mandatory}}}
+{{{end template}}}
+
+</includeonly>

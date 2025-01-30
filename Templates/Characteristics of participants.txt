@@ -1,0 +1,48 @@
+<noinclude>
+{{#template_params:Setting (property=Setting)|Types of cancer (list;property=Types of cancer)|Cancer stages (property=Stage cancer)|Specifications of cancer stages (property=Cancer stage specification)|Comorbidities (property=Comorbidity)|Current cancer therapies (list;property=Current cancer therapy)|Specifications on cancer therapy (property=Specifications on cancer therapy)|Previous cancer therapies (list;property=Previous cancer therapies)|Gender (property=Gender)|Gender specifications (property=Gender specifications)|Percentage male (property=Percentage male)|Age brackets (property=Age brackets)|Age brackets specification (property=Age brackets specification)}}
+</noinclude><includeonly>{| class="wikitable" style="width:100%;"
+|-
+! width=30% style="text-align:left;" | Setting {{#info: Refers to cancer therapy setting.
+- Curative therapy: aims to completely eradicate a disease and achieve a full recovery; 
+- Neo-adjuvant therapy: form of curative therapy, given before the primary treatment for cancer (usually surgery); 
+- Adjuvant therapy: form of curative therapy, given after the primary treatment for cancer (usually surgery); 
+- Palliative therapy: focuses on providing relief from symptoms and improving the quality of life for patients, without necessarily targeting the underlying disease; 
+- Active surveillance: involves close monitoring of disease progression without any intervention (typically used for prostate cancer);
+- No therapy setting: Patients who completed therapy/are currently not in cancer treatment, cancer survivors.|note}}
+| {{#arraymap:{{{Setting|}}}|,|x|[[Setting::x]]}}
+|-
+! style="text-align:left;" | Types of cancer  {{#info: "Other Cancers" means that only a subpopulation was specified, but further unspecified cancer types were included|note}}
+| {{#arraymap:{{{Types of cancer|}}}|,|x|[[Types of cancer::x]]}} 
+|-
+! style="text-align:left;" | Cancer stages {{#info: Early Stage: generally refers to cancer that is localized to the area where it started, mostly stages I and II;
+Advanced Stage: cancer that has spread beyond its original site, mostly stages III and IV, with stage IV indicating distant metastasis|note}}
+| {{#arraymap:{{{Stage cancer|}}}|,|x|[[Stage cancer::x]]}}
+|-
+! style="text-align:left;" | Specifications on cancer stages
+| [[Cancer stage specification::{{{Cancer stage specification|}}}]]
+|-
+! style="text-align:left;" | Comorbidities
+| [[Comorbidity::{{{Comorbidity|}}}]]
+|-
+! style="text-align:left;" | Current cancer therapies
+| {{#arraymap:{{{Current cancer therapy|}}}|,|x|[[Current cancer therapy::x]]}}
+|-
+! style="text-align:left;" | Specifications on cancer therapies
+| [[Specifications on cancer therapies::{{{Specifications on cancer therapies|}}}]]
+|-
+! style="text-align:left;" | Previous cancer therapies
+| {{#arraymap:{{{Previous cancer therapies|}}}|,|x|[[Previous cancer therapies::x]]}}
+|-
+! style="text-align:left;" | Gender
+| [[Gender::{{{Gender|}}}]]
+|-
+! style="text-align:left;" | Gender specifications
+| [[Gender specifications::{{{Gender specifications|}}}]]
+|-
+! style="text-align:left;" | Age groups
+| {{#arraymap:{{{Age groups|}}}|,|x|[[Age groups::x]]}}
+|-
+! style="text-align:left;" | Age groups specification
+| [[Age groups specification::{{{Age groups specification|}}}]]
+|}
+</includeonly>

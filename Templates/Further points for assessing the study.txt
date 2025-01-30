@@ -1,0 +1,82 @@
+<noinclude>
+{{#template_params:Samples sufficiently large (property=Samples sufficiently large)| power analysis performed (property=power analysis performed)| reasons given for samples (property=reasons given for samples)| Ethnicity mentioned (property=Ethnicity mentioned)| Possibility of attention effects (property=Possibility of attention effects)| Possibility of placebo effects (property=Possibility of placebo effects)| Other reasons (property=Other reasons)| Testing for normal distribution (property=Testing for normal distribution)| Correct application of statistical (property=Correct application of statistical)| Correction for multiple testing (property=Correction for multiple testing)| Measurement of compliance (property=Measurement of compliance)| Blinding reliable (property=Blinding reliable)| Check whether blinding was successful (property=Check whether blinding was successful)| Consistent reporting in numbers (property=Consistent reporting in numbers)| Sufficient washout period (property=Sufficient washout period)| Tested for carry-over (property=Tested for carry-over)| Were sequence effects tested (property=Were sequence effects tested)| Comprehensive and coherent reporting (property=Comprehensive and coherent reporting)| Were side effects systematically recorded (property=Were side effects systematically recorded)| Effect sizes reported (property=Effect sizes reported)| Side effects taken into account in the interpretation of the results (property=Side effects taken into account in the interpretation of the results)| mono- or multicentric (property=mono- or multicentric)| Ethics / CoI / Funding (property=Ethics / CoI / Funding)}}
+</noinclude><includeonly>
+==Sample==
+{| class="wikitable" style="width:100%;"
+|-
+! width=70% style="text-align:left;" | Power analysis performed
+| style="text-align:left;" | [[power analysis performed::{{{power analysis performed|}}}]]
+|-
+! style="text-align:left; text-indent:3em;" | - Sample size corresponds to power analysis
+| style="text-align:left;" | [[Sample size corresponds to power analysis::{{{Sample size corresponds to power analysis|}}}]]
+|-
+! style="text-align:left; text-indent:3em;" | - Reasons for insufficient sample size based on power analysis 
+| style="text-align:left;" | [[Reasons given for samples being too small according to power analysis::{{{Reasons given for samples being too small according to power analysis|}}}]]
+|-
+! style="text-align:left;" | If no power analysis performed: at least moderate sample size (n >= 30 per arm)
+| style="text-align:left;" | [[Samples sufficiently large::{{{Samples sufficiently large|}}}]]
+|-
+! style="text-align:left;" | Ethnicity mentioned 
+| style="text-align:left;" | [[Ethnicity mentioned::{{{Ethnicity mentioned|}}}]]
+|}
+==Alternative Explanation==
+{| class="wikitable" style="width:100%;"
+|-
+! width=30% style="text-align:left;" | Other explanations for an effect besides the investigated intervention
+| style="text-align:left;" | [[Other explanations for an effect besides the investigated intervention::{{{Other explanations for an effect besides the investigated intervention|}}}]]
+|-
+! style="text-align:left; text-indent:3em;" | - Possibility of attention effects 
+| [[Possibility of attention effects::{{{Possibility of attention effects|}}}]]
+|-
+! style="text-align:left; text-indent:3em;" | - Possibility of placebo effects 
+| [[Possibility of placebo effects::{{{Possibility of placebo effects|}}}]]
+|-
+! style="text-align:left; text-indent:3em;" | - Other reasons 
+| [[Other reasons::{{{Other reasons|}}}]]
+|}
+==Statistics==
+{| class="wikitable" style="width:100%;"
+|-
+! width=70% style="text-align:left;" | Correct use of parametric and non-parametric tests {{#info: Testing for normal distribution only necessary if parametric tests are used, NI: use of parametric tests without report of normal distribution testing| note}} 
+| style="text-align:left;" | [[Correct use of parametric and non-parametric tests::{{{Correct use of parametric and non-parametric tests|}}}]]
+|-
+! style="text-align:left;" | Correction for multiple testing 
+| style="text-align:left;" | [[Correction for multiple testing::{{{Correction for multiple testing|}}}]]
+|-
+! style="text-align:left;" | Measurement of compliance 
+| style="text-align:left;" | [[Measurement of compliance::{{{Measurement of compliance|}}}]]
+|-
+! style="text-align:left;" | Consistent reporting in numbers (figures, flowchart, abstract, results)
+| style="text-align:left;" | [[Consistent reporting in numbers::{{{Consistent reporting in numbers|}}}]]
+|-
+! style="text-align:left;" | Comprehensive and coherent reporting 
+| style="text-align:left;" | [[Comprehensive and coherent reporting::{{{Comprehensive and coherent reporting|}}}]]
+|-
+! style="text-align:left;" | Cross-over
+| style="text-align:left;" | [[Cross-over::{{{Cross-over|}}}]]
+|-
+! style="text-align:left; text-indent:3em;" | - Sufficient washout period 
+| style="text-align:left;" | [[sufficient washout period::{{{sufficient washout period|}}}]]
+|-
+! style="text-align:left; text-indent:3em;" | - Tested for carry-over effects 
+| style="text-align:left;" | [[Tested for carry-over effects::{{{Tested for carry-over effects|}}}]]
+|-
+! style="text-align:left; text-indent:3em;" | - Tested for sequence effects
+| style="text-align:left;" | [[Were sequence effects tested::{{{Were sequence effects tested|}}}]]
+|}
+==Interpretation of results==
+{| class="wikitable" style="width:100%;"
+|-
+! width=70% style="text-align:left;" | Effect sizes reported (clinical vs. statistical significance) 
+| style="text-align:left;" | [[Effect sizes reported::{{{Effect sizes reported|}}}]]
+|-
+! style="text-align:left;" | Side effects systematically recorded 
+| style="text-align:left;" | [[Were side effects systematically recorded::{{{Were side effects systematically recorded|}}}]]
+|-
+! style="text-align:left;" | Side effects considered in result interpretation
+| style="text-align:left;" | [[Side effects taken into account in the interpretation of the results::{{{Side effects taken into account in the interpretation of the results|}}}]]
+|-
+! style="text-align:left;" | Ethics votum
+| style="text-align:left;" | [[Ethics / CoI / Funding::{{{Ethics / CoI / Funding|}}}]]
+|}
+</includeonly>

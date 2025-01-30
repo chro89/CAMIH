@@ -1,0 +1,38 @@
+<noinclude>
+This is the "Publication" form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=Publication}}
+
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|Publication|label=Publication}}}
+{| class="formtable"
+! Title: 
+| {{{field|Title|input type=text|mandatory}}}
+|-
+! Topic: 
+| {{{field|Topic|input type=text with autocomplete|mandatory|delimiter=,|values=Aloe vera,Boswellia serrata,Cannabinoids,Carnitine,Curcumin,Electroacupuncture,Enzymes (bromelain papain),Folic acid,Ginger,Ginkgo,Green tea (EGCG),Guarana,Low-carbohydrate or ketogenic diet,Lycopene,Reflexology,Resveratrol,Selenium,Vitamin A (beta-carotene),Vitamin B1,Vitamin B12,Vitamin B6,Vitamin C,Vitamin D,Vitamin E,Zeolites,Zinc,NI,?}}}
+|-
+! Author: {{#info: ChatGPT: “Can you rewrite this list in this style: lastname, first letter of firstname; and seperate the list by semicolon, leave second first names in, no point after initial and no space between initials” | note}}
+| {{{field|Author|input type=textarea|mandatory|delimiter=;}}}
+
+|-
+! Publication year: 
+| {{{field|Year|input type=year|mandatory}}}
+|-
+! Journal: 
+| {{{field|Journal|input type=text|mandatory}}}
+|-
+! DOI: {{#info: Format as follows: ''https://doi.org/XXXXX''|note}}
+| {{{field|DOI|input type=text}}}
+|-
+! Authors Abstract: 
+| {{{field|Authors Abstract|input type=textarea|mandatory|default=?}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+{{{standard input|free text|rows=10}}}
+</includeonly>

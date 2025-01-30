@@ -1,0 +1,6 @@
+<noinclude>
+{{#template_params:}}
+</noinclude><includeonly>
+=Study Note=
+[[Study Note::{{{Study Note|}}}]]
+</includeonly>

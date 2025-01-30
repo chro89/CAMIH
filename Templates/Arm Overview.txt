@@ -1,0 +1,20 @@
+<noinclude>
+{{#template_params:}}
+</noinclude><includeonly>
+{{#ask:
+ [[-Has subobject::{{FULLPAGENAME}}]] 
+ [[Drop-out::+]]
+ |?Arm type
+ |?Number of participants (arm)
+ |?Drop-out
+ |?Drop-out reasons
+ |?Intervention
+ |?Dosage and regime
+ |?One-time application#Yes,No
+ |?Duration in days
+ |?Side Effects / Interactions
+ |sort=Order number
+ |format=template
+ |template=ArmQueryTemplate
+}}
+</includeonly>

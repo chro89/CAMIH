@@ -1,0 +1,18 @@
+<noinclude>
+{{#template_params:Arm type (list;property=Arm type)|Number of participants (property=Number of participants (arm))|Drop-out (property=Drop-out)|Drop-out reasons (property=Drop-out reasons)|Intervention (property=Intervention)|Dosage and regime (property=Dosage and regime)|One-time application (property=One-time application)|Duration in days (property=Duration in days)|Side Effects / Interactions (property=Side Effects / Interactions)|Order number (property=Order number)}}
+</noinclude>
+<includeonly>
+{{#subobject:|
+|Arm type={{{Arm type|}}}|+sep=,
+|Number of participants (arm)={{{Number of participants (arm)|}}}
+|Drop-out={{{Drop-out|}}}
+|Drop-out reasons={{{Drop-out reasons|}}}
+|Intervention={{{Intervention|}}}
+|Dosage and regime={{{Dosage and regime|}}}
+|One-time application={{{One-time application|}}}
+|Duration in days={{{Duration in days|}}}
+|Side Effects / Interactions={{{Side Effects / Interactions|}}}
+|Order number={{{Order number|}}}
+|Arm topic={{{Arm topic|}}}|+sep=,
+}}
+</includeonly>

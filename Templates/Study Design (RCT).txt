@@ -1,0 +1,27 @@
+<noinclude>
+{{#template_params:Prospective / Retrospective (list;property=Perspective)|Monocentric / Multicentric (list;property=Centralized)|Blinding (property=Blinding)||Is randomized (property=Is randomized)|Cross-over (property=Cross-over)|Number of arms (property=Number of arms)}}
+</noinclude><includeonly>{| class="wikitable" style="width:100%;"
+! width=30% style="text-align:left;" |Prospective / Retrospective {{#info: Prospective: forward-looking, examples include clinical trials, cohort studies, and long-term observational studies;
+Retrospective: backward-looking, relying on existing data, examples include case-control studies and retrospective cohort studies|note}}
+| {{#arraymap:{{{Perspective|}}}|,|x|[[Perspective::x]]}}
+|-
+! style="text-align:left;" | Monocentric / Multicentric {{#info: Monocentric: conducted in one center/ hospital; 
+Multicentric: conducted in multiple centers/ hospitals|note}}
+| {{#arraymap:{{{Centralized|}}}|,|x|[[Centralized::x]]}}
+|-
+! style="text-align:left;" | Blinding {{#info: No: Open, all parties are aware of group assignments;
+Single: one party is unaware of group assignments (generally participants);
+Double: two parties are unaware of group assignments (generally the participants and the researchers); 
+Triple: concealing group assignment from additional parties|note}}
+| [[Blinding::{{{Blinding|}}}]]
+|-
+! style="text-align:left;" | Is randomized
+| [[Is randomized::{{{Is randomized|}}}]]
+|-
+! style="text-align:left;" | Cross-over {{#info: Participants alternate between different treatment groups or conditions over a specified period, allowing each participant to serve as their own control|note}}
+| [[Cross-over::{{{Cross-over|}}}]]
+|-
+! style="text-align:left;" | Number of arms
+| [[Number of arms::{{{Number of arms|}}}]]
+|}
+</includeonly>

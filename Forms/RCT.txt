@@ -1,0 +1,324 @@
+<noinclude>
+This is the "RCT Study" form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=RCT Study}}
+
+</noinclude><includeonly>
+
+=Publication=
+
+{{{for template|Reference}}}
+{| class="formtable"
+! Publication: 
+| {{{field|Reference|input type=text|default=?}}}
+|}
+
+{{{for template|Study Note}}}
+==Study Note==
+{| class="formtable"
+|{{{field|Study Note|input type=textarea|default=?}}}
+|}
+{{{end template}}}
+
+=Brief summary=
+{{{section|Brief summary|level=1}}}
+
+=Study Design=
+{{{section|Study Design|level=1}}}
+
+{{{for template|Study Design (RCT)}}}
+{| class="formtable"
+! Prospective / Retrospective: {{#info: Prospective: forward-looking, examples include clinical trials, cohort studies, and long-term observational studies; 
+Retrospective: backward-looking, relying on existing data, examples include case-control studies and retrospective cohort studies|note}}
+| {{{field|Perspective|input type=radiobutton|mandatory|default=?}}}
+|-
+! Monocentric / Multicentric:  {{#info: Monocentric: conducted in one center/ hospital; 
+Multicentric: conducted in multiple centers/ hospitals|note}}
+| {{{field|Centralized|input type=radiobutton|mandatory|default=?}}}
+|-
+! Blinding: {{#info: No: Open, all parties are aware of group assignments; 
+Single: one party is unaware of group assignments (generally participants); 
+Double: two parties are unaware of group assignments (generally the participants and the researchers); 
+Triple: concealing group assignment from additional parties|note}}
+| {{{field|Blinding|input type=radiobutton|mandatory|default=?|values=?,No,Single,Double,Triple,NI}}}
+|-
+! Is randomized: 
+| {{{field|Is randomized|input type=checkbox|default=Yes}}}
+|-
+! Cross-over: {{#info: Participants alternate between different treatment groups or conditions over a specified period, allowing each participant to serve as their own control|note}}
+| {{{field|Cross-over|input type=checkbox|default=No}}}
+|-
+! Number of arms: 
+| {{{field|Number of arms|input type=text|mandatory|default=-999}}}
+|}
+
+=Study characteristics=
+{{{section|Study characteristics|level=1}}}
+
+{{{for template|RCT study general properties}}}
+{| class="formtable"
+! Inclusion criteria: 
+| {{{field|Inclusion criteria|input type=textarea|default=?}}}
+|-
+! Exclusion criteria: 
+| {{{field|Exclusion criteria|input type=textarea|default=?}}}
+|-
+! N randomized: 
+| {{{field|N randomized|input type=text|mandatory|default=-999}}}
+|-
+! Analysis: {{#info: PP: Per Protocol analysis, i.e. only participants included who adhered to the study protocol.
+ITT: Intention-to-treat analysis, i.e. all randomized participants included regardless of any drop-outs or changes in assignment.
+mITT: modified Intention-to-treat analysis can refer to analyses in which participants with missing outcome data are excluded or it can refer to analyses in which only participants who received at least one treatment dose are included. In this case, participants dropped out of the study prematurely for reasons unrelated to the treatment.|note}}
+| {{{field|Analysis|input type=checkboxes|default=?}}}
+|-
+! Specifications on analyses:
+| {{{field|Specifications on analyses|input type=textarea|default=?}}}
+|-
+! Countries of data collection: 
+| {{{field|Countries of data collection|input type=text with autocomplete|delimiter=,|values=Afghanistan,Albania,Algeria,Andorra,Angola,Antigua & Deps,Argentina,Armenia,Australia,Austria,Azerbaijan,Bahamas,Bahrain,Bangladesh,Barbados,Belarus,Belgium,Belize,Benin,Bhutan,Bolivia,Bosnia Herzegovina,Botswana,Brazil,Brunei,Bulgaria,Burkina,Burundi,Cambodia,Cameroon,Canada,Cape Verde,Central African Rep,Chad,Chile,China,Colombia,Comoros,Congo,Congo {Democratic Rep},Costa Rica,Croatia,Cuba,Cyprus,Czech Republic,Denmark,Djibouti,Dominica,Dominican Republic,East Timor,Ecuador,Egypt,El Salvador,Equatorial Guinea,Eritrea,Estonia,Ethiopia,Europe,Fiji,Finland,France,Gabon,Gambia,Georgia,Germany,Ghana,Greece,Grenada,Guatemala,Guinea,Guinea-Bissau,Guyana,Haiti,Honduras,Hungary,Iceland,India,Indonesia,Iran,Iraq,Ireland {Republic},Israel,Italy,Ivory Coast,Jamaica,Japan,Jordan,Kazakhstan,Kenya,Kiribati,Korea North,Korea South,Kosovo,Kuwait,Kyrgyzstan,Laos,Latin America,Latvia,Lebanon,Lesotho,Liberia,Libya,Liechtenstein,Lithuania,Luxembourg,Macedonia,Madagascar,Malawi,Malaysia,Maldives,Mali,Malta,Marshall Islands,Mauritania,Mauritius,Mexico,Micronesia,Moldova,Monaco,Mongolia,Montenegro,Morocco,Mozambique,Myanmar,{Burma},Namibia,Nauru,Nepal,Netherlands,New Zealand,Nicaragua,Niger,Nigeria,North America,Norway,Oman,Pakistan,Palau,Panama,Papua New Guinea,Paraguay,Peru,Philippines,Poland,Portugal,Qatar,Romania,Russian Federation,Rwanda,St Kitts & Nevis,St Lucia,Saint Vincent & the Grenadines,Samoa,San Marino,Sao Tome & Principe,Saudi Arabia,Senegal,Serbia,Seychelles,Sierra Leone,Singapore,Slovakia,Slovenia,Solomon Islands,Somalia,South Africa,South Sudan,Spain,Sri Lanka,Sudan,Suriname,Swaziland,Sweden,Switzerland,Syria,Taiwan,Tajikistan,Tanzania,Thailand,Togo,Tonga,Trinidad & Tobago,Tunisia,Turkey,Turkmenistan,Tuvalu,Uganda,Ukraine,United Arab Emirates,United Kingdom,United Kingdom - Great Britain,United States,United States - New York,United States - Texas,Uruguay,Uzbekistan,Vanuatu,Vatican City,Venezuela,Vietnam,Yemen,Zambia,Zimbabwe,NI,?|default=?}}}
+|-
+! LoE: {{#info: Level of evidence|note}}
+| {{{field|LoE|input type=dropdown|mandatory|default=?}}}
+|-
+! Outcome timeline: {{#info: Data collection times|note}}
+| {{{field|Outcome timeline|input type=textarea|mandatory|default=?}}}
+|}
+
+=Characteristics of participants=
+{{{section|Characteristics of participants|level=1}}}
+
+{{{for template|Characteristics of participants}}}
+{| class="formtable"
+! Setting: {{#info: Refers to cancer therapy setting.
+- Curative therapy: aims to completely eradicate a disease and achieve a full recovery; 
+- Neo-adjuvant therapy: form of curative therapy, given before the primary treatment for cancer (usually surgery); 
+- Adjuvant therapy: form of curative therapy, given after the primary treatment for cancer (usually surgery); 
+- Palliative therapy: focuses on providing relief from symptoms and improving the quality of life for patients, without necessarily targeting the underlying disease; 
+- Active surveillance: involves close monitoring of disease progression without any intervention (typically used for prostate cancer);
+- No therapy setting: Patients who completed therapy/are currently not in cancer treatment, cancer survivors.|note}}
+| {{{field|Setting|input type=checkboxes|delimiter=,|default=?|mandatory|values=?, Curative, Neo-adjuvant, Adjuvant, Palliative, Active surveillance, No therapy setting, NI}}}
+|-
+! Types of cancer: {{#info: "Other Cancers" means that only a subpopulation was specified, but further unspecified cancer types were included|note}}
+| {{{field|Types of cancer|input type=text with autocomplete|mandatory|default=?|delimiter=,|values=Adrenal Cancer,Anal Cancer,Bile Duct Cancer,Bone and Soft Tissue Cancers, Bone and Soft Tissue Cancers - Osteosarcoma,Bone and Soft Tissue Cancers - Ewing Sarcoma,Bone and Soft Tissue Cancers - Chondrosarcoma,Bone and Soft Tissue Cancers - Rhabdomyosarcoma,Bone and Soft Tissue Cancers – Liposarcoma,Brain and Central Nervous System (CNS) Cancers,Brain and Central Nervous System (CNS) Cancers - Astrocytoma,Brain and Central Nervous System (CNS) Cancers - Glioblastoma,Brain and Central Nervous System (CNS) Cancers - High-Grade Glioma,Brain and Central Nervous System (CNS) Cancers - Meningioma,Breast Cancer,Breast Cancer - Ductal Carcinoma,Breast Cancer - Lobular Carcinoma,Breast Cancer - Inflammatory Breast Cancer,Breast Cancer - Triple-Negative Breast Cancer,Carcinosarcoma,Chest Cancer,Colorectal Cancer,Colorectal Cancer - Colon Cancer,Colorectal Cancer - Rectal Cancer,Eye Cancer,Eye Cancer - Retinoblastoma,Gastrointestinal Cancers,Gastrointestinal Cancers - Gallbladder Cancer,Gastrointestinal Cancers - Gastric (Stomach) Cancer,Gastrointestinal Cancers - Esophageal Cancer,Gastrointestinal Cancers - Pancreatic Cancer,Gastrointestinal Cancers - Liver Cancer,Genitourinary Cancers,Genitourinary Cancers - Bladder Cancer,Genitourinary Cancers - Kidney (Renal) Cancer,Genitourinary Cancers - Testicular Cancer,Genitourinary Cancers - Urethral Cancer,Gynecologic Cancers,Gynecologic Cancers - Ovarian Cancer,Gynecologic Cancers - Cervical Cancer,Gynecologic Cancers - Uterine Cancer,Gynecologic Cancers - Endometrial Cancer,Gynecologic Cancers - Vulvar Cancer,Head and Neck Cancers, Head and Neck Cancers - Oral Cancer,Head and Neck Cancers - Oropharyngeal Cancer,Head and Neck Cancers - Laryngeal Cancer,Head and Neck Cancers - Nasopharyngeal Cancer,Head and Neck Cancers - Tongue Cancer,Head and Neck Cancers - Thyroid Cancer,Head and Neck Cancers - Ethmoid Sinus Cancer,Hematologic Cancers, Hematologic Cancers - Leukemia (Acute Lymphocytic/Acute Myeloid/Chronic Lymphocytic/Chronic Myeloid), Hematologic Cancers - Lymphoma (Hodgkin and Non-Hodgkin),Hematologic Cancers - Multiple Myeloma,Lung Cancer,Lung Cancer - Small Cell Lung Cancer,Lung Cancer - Non-Small Cell Lung Cancer,Mesothelioma,Neuroblastoma,Prostate Cancer,Skin Cancer,Skin Cancer - Basal Cell Carcinoma,Skin Cancer - Squamous Cell Carcinoma,Skin Cancer – Melanoma,Stomach Cancer,Solid Malignancies,Thymoma and Thymic Carcinoma,Unspecified Sarcoma,Other Cancers,NI,?}}}
+|-
+! Cancer stage: {{#info: Early Stage: generally refers to cancer that is localized to the area where it started, mostly stages I and II;
+Advanced Stage: cancer that has spread beyond its original site, mostly stages III and IV, with stage IV indicating distant metastasis|note}}
+| {{{field|Stage cancer|input type=checkboxes|mandatory|default=?}}}
+|-
+! Cancer stage specification: 
+| {{{field|Cancer stage specification|input type=textarea|default=?}}}
+|-
+! Comorbidity: 
+| {{{field|Comorbidity|input type=textarea|default=?}}}
+|-
+! Current cancer therapy: 
+| {{{field|Current cancer therapy|input type=text with autocomplete|mandatory|default=?}}}
+|-
+! Specifications on cancer therapies: 
+| {{{field|Specifications on cancer therapies|input type=textarea|default=?}}}
+|-
+! Previous cancer therapies: 
+| {{{field|Previous cancer therapies|input type=text with autocomplete|default=?}}}
+|-
+! Gender: 
+| {{{field|Gender|input type=radiobutton|mandatory|values=?, Male, Female, Mixed, NI|default=?}}}
+|-
+! Gender specifications: 
+| {{{field|Gender specifications|input type=textarea|default=?}}}
+|-
+! Age groups: 
+| {{{field|Age groups|input type=checkboxes|values=?, Children (0-15), Adolescents and young adults (15-39), Adults (18+), Elderly (65+), NI|default=adults (18+)}}}
+|-
+! Age groups specification: 
+| {{{field|Age groups specification|input type=textarea|default=?}}}
+|}
+
+
+=Arms=
+{{{section|Arms|level=1}}}
+
+{{{for template|Arm|multiple}}}
+'''Arm type:''' {{#info: Active control: group receives active treatment; 
+Passive control: for example: treatment as usual, waiting control, no treatment|note}}
+{{{field|Arm type|input type=checkboxes|default=?}}}
+
+'''Number of participants (arm):''' {{{field|Number of participants (arm)|input type=text|mandatory|default=-999}}}
+
+'''Drop-out:''' {{#info: Number of participants who left the study for any reason or did not provide information on every data collection date|note}} {{{field|Drop-out|input type=textarea|mandatory|default=?}}}
+
+'''Drop-out reasons:''' {{{field|Drop-out reasons|input type=textarea|default=?}}}
+
+'''Intervention:''' {{{field|Intervention|input type=textarea|mandatory|default=?}}}
+
+'''Dosage and regime:''' {{{field|Dosage and regime|input type=textarea|mandatory|default=?}}}
+
+'''One-time application:''' {{{field|One-time application|input type=checkbox|mandatory|default=No}}}
+
+'''Duration in days:''' {{#info: For long-term interventions, the number of days is an estimate.
+A value of -999 indicates that the exact duration cannot be extracted from the study due to ambiguous or incomplete information. See ''Outcome timeline'' or ''Dosage and regime'' for further information. |note}}
+{{{field|Duration in days|input type=regexp|mandatory|default=?}}}
+
+'''Side Effects / Interactions:''' {{{field|Side Effects / Interactions|input type=textarea|mandatory|default=?}}}
+
+'''Order number:''' {{{field|Order number|input type=text|mandatory|default=1}}}
+
+'''Arm topic:''' {{{field|Arm topic|input type=tokens|mandatory|delimiter=,|values=Aloe vera,Boswellia serrata,Cannabinoids,Carnitine,Curcumin,Electroacupuncture,Enzymes (bromelain papain),Folic acid,Ginger,Ginkgo,Green tea (EGCG),Guarana,Low-carbohydrate or ketogenic diet,Lycopene,Reflexology,Resveratrol,Selenium,Vitamin A (beta-carotene),Vitamin B1,Vitamin B12,Vitamin B6,Vitamin C,Vitamin D,Vitamin E,Zeolites,Zinc,NI,?}}}
+
+{{{end template}}}
+
+{{{for template|Arm Overview}}}
+{{{end template}}}
+
+=Outcomes=
+{{{section|Outcomes|level=1}}}
+{{{for template|Outcome|multiple}}}
+'''Outcome type:''' {{#info: As specificed by the authors| note}} {{{field|Outcome type|input type=radiobutton|mandatory|default=?|values=?,Primary,Secondary,Others,NI}}}
+
+'''Outcome name:''' {{{field|Outcome name|input type=text with autocomplete|mandatory|default=?|delimiter=,|values=Additional medication,Anorexia/Cachexia,Antibodies,Anxiety,Appetite,Arterial inflow,BMD (Bone Mineral Density),Body composition,Carnitine level,Carotenoid concentration,Cerebral oedema,CINV (Chemotherapy-Induced Nausea and Vomiting),Cognitive functioning,Cognitive impairment,Depression,Dermatitis,DFS (Disease-Free Survival),Diarrhoe,Distress,Dysgeusia,Ejection fraction,Erectile dysfunction,Erythema,Esophagitis,Fatigue,Fever,Fibrosis,Folic acid level,Functionality,Haematological indices,Haematological toxicity,Hand-foot syndrome,Hand grip strength,Hormone level,Ileus (intestinal obstruction),Incidence of acute GVHD (Graft-Versus-Host Disease),Infection,Interaction with cancer treatment,Laboratory parameters,Length of hospital stay,Lymphedema,Menopausal symptoms,Mental status/ function,Mood/Affect,Mortality rate,Mucositis,Musculoskeletal symptoms,Nausea,Nausea and Vomiting,Nerve conduction velocity,Neurotoxicity,Neutropenia,Non-haematological indices,Nutrition status,Objective signs and subjective symptoms,Oral ulcus,OS (Overall Survival),Ototoxicity,Pain,PD (Pharmacodynamics),Performance Status,Peripheral neuropathy,PFS (Progression-Free Survival),Pharyngitis,Physical functioning,PK (Pharmacokinetics),Postoperative morbidity/ complications,PSA level (Prostate-Specific Antigen),Quality of life,Recurrence rate,REE (Resting Energy Expenditure),Relaxation,RFS (Recurrence-Free Survival),Salivary gland function,Selenium level,Seroconversion,Sleep,Stomatitis,Stress,Symptom load,Taste alteration,Tea polyphenol uptake,Thromboembolic event rates,Toxicity,Treatment interruption,Tumor progression,Tumor response,Vaginal atrophy,Vitamin A level,Vitamin B6 level,Vitamin B12 level,Vitamin B17 level,Vitamin C level,Vitamin D level,Vitamin E level,Vomiting,Weight,Well-being,Wound healing,Wound odour,Xerostomia,Zinc level,Unspecified effects,NI,?}}}
+
+'''Outcome specification:''' {{{field|Outcome specification|input type=textarea|default=?}}}
+
+'''Type of measurement:''' {{{field|Type of measurement|input type=tokens|mandatory|default=?|delimiter=,|values=AQoL-8D (Assessment of Quality of Life),ASAT (Auditory Sustained Attention Test),Atomic absorption,Audiogram,AUSCAN (Australian/Canadian Osteoarthritis Hand Index),BCPT (Breast Cancer Prevention Symptom Scales),BDI (Beck Depression Inventory),BFI (Brief Fatigue Inventory),BIA (Bioelectrical impedance analysis),Blood Test,BPI-SF (Brief Pain Inventory - Short Form),CES-D (Center for Epidemiologic Studies - Depression Scale),Chemiluminescent immunoassay,CNPI (Checklist of Non-Verbal Pain Indicators),CSSP (Catterall Skin Scoring Profile),CT (Computed Tomography),CTCAE (Common Terminology Criteria of Adverse Events),Cystoscopy,Diary questionnaire,DXA (Dual energy X-ray Absorptiometry),Dynamometer,Echo-color Doppler,ECOG Performance Status Scale (Eastern Cooperative Oncology Group),Electronic monitoring device,Electrophysiological evaluation,ELISA protocol (Enzyme-Linked Immunoabsorbent Assay),EORTC QLQ (European Organisation for Research and Treatment of Cancer Core/ Quality of Life questionnaire),ESAS (Edmonton Symptom Assessment Scale),FAACT (Functional Assessment of Anorexia-Cachexia Therapy),FACIT (Functional Assessment of Chronic Illness Therapy),FACT (Functional Assessment of Cancer Therapy),FGS (Hughes' Functional Grading Scale),FIQ (Fibromyalgia Impact Questionnaire),FLIE (Functional Living Index for Emesis),Genitourinary atrophy self-assessment tool,GFAAS (Graphite Furnace Atomic Absorption Spectrometry),Global Charter Fatigue Scale,HADS (Hospital Anxiety and Depression Scale),HAQ-DI (Health Assessment Questionnaire-Disability Index),HFRDIS (Hot Flash Related Daily Interference Scale),HFS (Hot Flush Score),HGST Maximum (Handgrip Strength Test),Histological examination,HNQR (Head and Neck Radiotherapy Questionnaire),HSCS (High Sensitivity Cognitive Screen),ICI Test (Intracavernosal Injection Test),IIEF (International Index of Erectile Function),Interview,KPS (Karnofsky Performance Status),LASA (Linear Analogue Self-Assessment),LENT SOMA Scale (Late Effects on Normal Tissues/ Subjective Objective Management Analysis),MADRS (Montgomery-Asberg Depression Rating Scale),MAT (Multinational Association of Supportive Care in Cancer-Antiemesis Tool),McDonald criteria,MDASI (M. D. Anderson Symptom Inventory),Measuring tape,MENQOL (Menopause-Specific Quality of Life),MFI-20 (Multidimensional Fatigue Inventory-20),MMSE (Mini-Mental State Exam),Morbidity rating scale (by Dische),MOS SF-12 (Medical Outcomes Study/ 12-Item Short Form Health Survey),MPQ-SF (McGill Pain Questionnaire - Short Form),MRI (Magnetic Resonance Imaging),MRS (Mood Rating Scale),MYCaW (Measure Yourself Concerns and Wellbeing),NCI-CTC v.2 (National Cancer Institute-Common Toxic Criteria),NCI Grading Scale (National Cancer Institute),NDS (Neurological Disability Score),Neurologic examination,Neuropathy specific question,NRS (Numeric Rating Scale),NRS (Nutritional Risk Screening),NSS (Neurological Symptom Score),Observation,OMAS (Oral Mucositis Assessment Scale),Otoacoustic Emissions Testing,PAC-QoL (Patient Assessment of Constipation - Quality of Life),PGIC (Physician Global Impression of Change),PG-SGA (Patient-Generated Subjective Global Assessment),PHLF (Post Hepatectomy Liver Failure),PHS (Cognitive subscale of the Perceived Health Scale),pH-value,Physical examination,Physical functioning (grip strength;6 minute walk;leg extension),POMS (Profile of Mood States),PoSSe (Postoperative Symptom Severity Scale),Postoperative morbidity/complications (classification according to Clavien-Dindo),PROMIS (Patient-Reported Outcomes Measurement Information System),PSQ (Patient Satisfaction Questionnaire),PSQI (Pittsburgh Sleep Quality Index),QoR-40 (Quality of Recovery-40 Questionnaire),RDS (Radiation Dermatitis Severity),RECIST 1.0 Criteria (Response Evaluation Criteria in Solid Tumors),Reidel-Seiffer tuning fork,Rhodes Inventory of Nausea,RPSAS (Radiation Proctopathy System Assessment Scale),RTOG Acute Radiation Morbidity Scoring Criteria (Radiation Therapy Oncology Group),Scale,SCID (Structured Clinical Interview for DSM IV),Scintigraphy,Self-developed measurement instrument,SF-36 (Short Form-36 Health Survey),SF-MPQ (Short-Form McGill Pain Questionnaire),SGIC (Subject Global Impression of Change),SI (Symptom Inventory questionnaire),SOMA (Subjective Objective Medical management and Analytic evaluation of injury),SPECT (Single Photon Emission Computed Tomography),Spectrophotometry,SPPB (Short Physical Performance Battery),STAI (State-Trait-Anxiety-Inventory),Symptom experience diary (NCCTG),Thermometer,Three-stimulus drop technique (by Henkin),Tissue testing,TMT (Trail Making Test),TNS (Total Neuropathy Score),Ultrasonography,Unspecified questionnaire,Urinalysis,VAS (Visual Analogue Scale),VMI (Vaginal Maturation Index),VNS (Verbal Numerical Scale),Volometer,Western Ontario and McMaster Osteoarthritis Index,WHO-Scale (World Health Organisation),Wound volume,NI,NA,?}}}
+
+'''Results during intervention:''' {{#info: ''Results during intervention'' means that the time of data collection is during or shortly after the period of the intervention (e.g. on the last day or a few days after). The results therefore still relate to the direct effects of the intervention.|note}}
+{{{field|Results during intervention|input type=textarea|mandatory|default=?}}}
+'''Results after intervention:''' {{#info: ''Results after intervention'' means there is a longer break between the time of data collection and the end of the intervention, e.g. more than a week. The results relate more to long-term effects. 
+If a categorization in ''Results during vs. after intervention'' is not possible (e.g. survival data), the results are summarized under ''Results after intervention'' under the headline "Overall".|note}}
+{{{field|Results after intervention|input type=textarea|mandatory|default=?}}}
+==Risk of Bias Assessment: Cochrane RoB tool 2.0==
+{| class="formtable"
+! Bias arising from the randomization process
+| {{{field|Bias arising from the randomization process|input type=radiobutton|mandatory|default=?|values=?,low risk,some concerns,high risk,NA}}}
+|-
+! Bias due to deviation from intended intervention (assignment to intervention) 
+| {{{field|Bias due to deviation from intended intervention (assignment to intervention)|input type=radiobutton|mandatory|default=?|values=?,low risk,some concerns,high risk,NA}}}
+|-
+! Bias due to deviation from intended intervention (adhering to intervention)
+| {{{field|Bias due to deviation from intended intervention (adhering to intervention)|input type=radiobutton|mandatory|default=NA|values=?,low risk,some concerns,high risk,NA}}}
+|-
+! Bias due to missing outcome data
+| {{{field|Bias due to missing outcome data|input type=radiobutton|mandatory|default=?|values=?,low risk,some concerns,high risk, NA}}}
+|-
+! Bias in measurement of the outcome
+| {{{field|Bias in measurement of the outcome|input type=radiobutton|mandatory|default=?|values=?,low risk,some concerns,high risk, NA}}}
+|-
+! Bias in selection of the reported result
+| {{{field|Bias in selection of the reported result|input type=radiobutton|mandatory|default=?|values=?,low risk,some concerns,high risk,NA}}}
+|-
+! Other sources of bias
+| {{{field|Other sources of bias|input type=radiobutton|mandatory|default=?|values=?,low risk,some concerns,high risk,NA}}}
+|-
+! Overall RoB judgment
+| {{{field|Overall RoB judgment|input type=radiobutton|mandatory|default=?|values=?,low risk,some concerns,high risk,NA}}}
+|}
+
+'''Order number:''' {{{field|Order number|input type=text|mandatory|default=1}}}
+
+'''Outcome topic:''' {{{field|Outcome topic|input type=tokens|mandatory|delimiter=,|values=Aloe vera,Boswellia serrata,Cannabinoids,Carnitine,Curcumin,Electroacupuncture,Enzymes (bromelain papain),Folic acid,Ginger,Ginkgo,Green tea (EGCG),Guarana,Low-carbohydrate or ketogenic diet,Lycopene,Reflexology,Resveratrol,Selenium,Vitamin A (beta-carotene),Vitamin B1,Vitamin B12,Vitamin B6,Vitamin C,Vitamin D,Vitamin E,Zeolites,Zinc,NI,?}}}
+{{{end template}}}
+{{{for template|Outcome Overview}}}
+{{{end template}}}
+
+=Funding and Conflicts of Interest=
+{{{section|Funding and Conflicts of Interest|level=1}}}
+
+{{{for template|Funding and Conflicts of Interest}}}
+{| class="formtable"
+! Funding: 
+| {{{field|Funding|input type=textarea|default=?}}}
+|-
+! Conflicts of Interest: 
+| {{{field|Conflicts of Interest|input type=textarea|default=?}}}
+|}
+{{{end template}}}
+
+=Further points for assessing the study=
+{{{section|Further points for assessing the study|level=1}}}
+
+{{{for template|Further points for assessing the study}}}
+==Sample==
+{| class="formtable"
+! Power analysis performed
+| {{{field|power analysis performed|input type=radiobutton|mandatory|default=?}}}
+|-
+! style="text-indent:3em;" | - Sample size corresponds to power analysis
+| {{{field|Sample size corresponds to power analysis|input type=radiobutton|mandatory|default=?}}}
+|-
+! style="text-indent:3em;" | - Reasons for insufficient sample size based on power analysis
+| {{{field|Reasons given for samples being too small according to power analysis|input type=textarea|mandatory|default=?}}}
+|-
+! If no power analysis performed: at least moderate sample size (n >= 30 per arm)
+| {{{field|Samples sufficiently large|input type=radiobutton|mandatory|default=?}}}
+|-
+! Ethnicity mentioned
+| {{{field|Ethnicity mentioned|input type=radiobutton|mandatory|default=?}}}
+|}
+==Alternative Explanation==
+{| class="formtable"
+! Other explanations for an effect besides the investigated intervention
+| {{{field|Other explanations for an effect besides the investigated intervention|input type=radiobutton|mandatory|default=?}}}
+|-
+! style="text-indent:3em;" | - Possibility of attention effects {{#info: e.g. due to lack of a placebo arm|note}}
+| {{{field|Possibility of attention effects|input type=textarea|mandatory|default=?}}}
+|-
+! style="text-indent:3em;" | - Possibility of placebo effects
+| {{{field|Possibility of placebo effects|input type=textarea|mandatory|default=?}}}
+|-
+! style="text-indent:3em;" | - Other reasons
+| {{{field|Other reasons|input type=textarea|mandatory|default=?}}}
+|}
+==Statistics==
+{| class="formtable"
+! Correct use of parametric and non-parametric tests {{#info: Testing for normal distribution only necessary if parametric tests are used, NI: use of parametric tests without report of normal distribution testing|note}} 
+| {{{field|Correct use of parametric and non-parametric tests|input type=radiobutton|mandatory|default=?}}}
+|-
+! Correction for multiple testing
+| {{{field|Correction for multiple testing|input type=radiobutton|mandatory|default=?}}}
+|-
+! Measurement of compliance
+| {{{field|Measurement of compliance|input type=radiobutton|mandatory|default=?}}}
+|-
+! Consistent reporting in numbers (figures, flowchart, abstract, results)
+| {{{field|Consistent reporting in numbers|input type=radiobutton|mandatory|default=?}}}
+|-
+! Comprehensive and coherent reporting
+| {{{field|Comprehensive and coherent reporting|input type=radiobutton|mandatory|default=?}}}
+|-
+! Cross-Over study
+| {{{field|Cross-over|input type=radiobutton|mandatory|default=?}}}
+|-
+! style="text-indent:3em;" | - Sufficient washout period
+| {{{field|sufficient washout period|input type=radiobutton|mandatory|default=?}}}
+|-
+! style="text-indent:3em;" | - Tested for carry-over effects
+| {{{field|Tested for carry-over effects|input type=radiobutton|mandatory|default=?}}}
+|-
+! style="text-indent:3em;" | - Tested for sequence effects
+| {{{field|Were sequence effects tested|input type=radiobutton|mandatory|default=?}}}
+|}
+==Interpretation of results==
+{| class="formtable"
+! Effect sizes reported (clinical vs. statistical significance)
+| {{{field|Effect sizes reported|input type=radiobutton|mandatory|default=?}}}
+|-
+! Side effects systematically recorded
+| {{{field|Were side effects systematically recorded|input type=radiobutton|mandatory|default=?}}}
+|-
+! Side effects considered in result interpretation
+| {{{field|Side effects taken into account in the interpretation of the results|input type=radiobutton|mandatory|default=?}}}
+|-
+! Ethics votum
+| {{{field|Ethics / CoI / Funding|input type=radiobutton|mandatory|default=?}}}
+|}
+{{{end template}}}
+
+{{{for template|Additional Notes}}}
+==Additional Notes==
+{| class="formtable"
+|{{{field|Additional Notes|input type=textarea|default=?}}}
+|}
+{{{end template}}}
+
+</includeonly>

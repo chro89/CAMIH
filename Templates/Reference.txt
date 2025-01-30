@@ -1,0 +1,9 @@
+<noinclude>
+{{#template_params:Reference(list;property=Reference)}}
+</noinclude>
+<div style="display:none;">{{#subobject:|
+|Reference={{{Reference|}}}
+}}</div>
+{{Reference Overview
+|Publication={{#show:{{SUBJECTPAGENAME}}|?has subobject.Reference#}}
+}}

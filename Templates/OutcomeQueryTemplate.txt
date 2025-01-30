@@ -1,0 +1,53 @@
+<noinclude>
+{{#template_params:}}
+</noinclude>
+=={{{2}}}==
+{| class="wikitable" style="width:90%; margin-bottom: 0px; margin-left:auto;"
+! width=30% style="text-align:left;" |  Outcome type  {{#info: As specificed by the authors| note}}
+| {{{3}}}
+|-
+!  style="text-align:left;" | Outcome specification
+| {{{4}}}
+|-
+!  style="text-align:left;" | Type of measurement
+|  {{{5}}}
+|-
+! style="text-align:left;" | Results during intervention {{#info: 
+- ''Results during intervention'' means that the time of data collection is during or shortly after the period of the intervention (e.g. on the last day or a few days after). The results therefore still relate to the direct effects of the intervention.
+- ''Results after intervention'' means there is a longer break between the time of data collection and the end of the intervention, e.g. more than a week. The results relate more to long-term effects.
+- If a categorization in ''Results during vs. after intervention'' is not possible (e.g. survival data), the results are summarized under ''Results after intervention'' under the headline "Overall".|note}}
+| {{{6}}}
+|-
+! style="text-align:left;" | Results after intervention {{#info: 
+- ''Results during intervention'' means that the time of data collection is during or shortly after the period of the intervention (e.g. on the last day or a few days after). The results therefore still relate to the direct effects of the intervention.
+- ''Results after intervention'' means there is a longer break between the time of data collection and the end of the intervention, e.g. more than a week. The results relate more to long-term effects.
+- If a categorization in ''Results during vs. after intervention'' is not possible (e.g. survival data), the results are summarized under ''Results after intervention'' under the headline "Overall".|note}}
+| {{{7}}}
+|}
+{| class="wikitable" style="width:90%;margin-top: 0px;margin-bottom: 40px; margin-left:auto;"
+! colspan="2" style="font-size: 16px; background-color: #42c0fb91; color: #color: #202122;" |Risk of Bias Assessment: Cochrane RoB tool 2.0
+|-
+! style="width:70%; font-weight:normal;text-align:left;" | Bias arising from the randomization process
+| style="text-align:center;font-weight:bold;" | {{{8}}}
+|-
+! style="text-align:left; font-weight:normal;" | Bias due to deviation from intended intervention (assignment to intervention)
+| style="text-align:center; font-weight:bold;" | {{{9}}}
+|-
+! style="text-align:left; font-weight:normal;" | Bias due to deviation from intended intervention (adhering to intervention) 
+| style="text-align:center; font-weight:bold;" | {{{10}}}
+|-
+! style="text-align:left; font-weight:normal;" | Bias due to missing outcome data
+| style="text-align:center; font-weight:bold;" | {{{11}}}
+|-
+! style="text-align:left; font-weight:normal;" | Bias in measurement of the outcome
+| style="text-align:center; font-weight:bold;" | {{{12}}}
+|-
+! style="text-align:left; font-weight:normal;" | Bias in selection of the reported result
+| style="text-align:center; font-weight:bold;" | {{{13}}}
+|-
+! style="text-align:left; font-weight:normal;" | Other sources of bias
+| style="text-align:center; font-weight:bold;" | {{{14}}}
+|-
+! style="text-align:left;" | Overall RoB judgment
+| style="text-align:center; font-weight:bold;" | {{{15}}}
+|}

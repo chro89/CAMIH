@@ -1,0 +1,10 @@
+<noinclude>
+{{#template_params:Funding (property=Funding)|Conflicts of Interest (property=Conflicts of interest)}}
+</noinclude><includeonly>{| class="wikitable" style="width:100%;"
+! width=30% style="text-align:left;" |  Funding
+| [[Funding::{{{Funding|}}}]]
+|-
+!  style="text-align:left;" |Conflicts of Interest
+| [[Conflicts of interest::{{{Conflicts of Interest|}}}]]
+|}
+</includeonly>

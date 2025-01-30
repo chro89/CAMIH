@@ -1,0 +1,16 @@
+<noinclude>
+{{#template_params:}}
+</noinclude>
+{{#ask:
+ [[{{{Publication}}}]]
+ |?Title
+ |?Topic
+ |?Author
+ |?Publication year
+ |?Journal
+ |?DOI
+ |format=template
+ |template=PublicationQueryTemplate
+ |link=none
+ |sep=;
+}}

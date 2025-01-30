@@ -1,0 +1,32 @@
+<noinclude>
+{{#template_params:|Inclusion criteria(property=Inclusion criteria)|Exclusion criteria(property=Exclusion criteria)|N randomized (property=N randomized)|Analysis(property=Analysis)|Specifications on analyses(property=Specifications on analyses)|Countries of data collection(list;property=Countries of data collection)|LoE(property=LoE)|Outcome timeline(property=Outcome timeline)}}
+</noinclude><includeonly>{| class="wikitable" style="width:100%;"
+! width=30%  style="text-align:left;" | Inclusion criteria
+| [[Inclusion criteria::{{{Inclusion criteria|}}}]]
+|-
+!  style="text-align:left;" |Exclusion criteria
+| [[Exclusion criteria::{{{Exclusion criteria|}}}]]
+|-
+!  style="text-align:left;" |N randomized
+| [[N randomized::{{{N randomized|}}}]]
+|-
+!  style="text-align:left;" |Analysis {{#info: PP: Per Protocol analysis, i.e. only participants included who adhered to the study protocol.
+ITT: Intention-to-treat analysis, i.e. all randomized participants included regardless of any drop-outs or changes in assignment.
+mITT: modified Intention-to-treat analysis can refer to analyses in which participants with missing outcome data are excluded or it can refer to analyses in which only participants who received at least one treatment dose are included. In this case, participants dropped out of the study prematurely for reasons unrelated to the treatment.|note}}
+| {{#arraymap:{{{Analysis|}}}|,|x|[[Analysis::x]]}}
+|-
+!  style="text-align:left;" |Specifications on analyses
+| [[Specifications on analyses::{{{Specifications on analyses|}}}]]
+|-
+!  style="text-align:left;" |Countries of data collection
+| {{#arraymap:{{{Countries of data collection|}}}|,|x|[[Countries of data collection::x]]}}
+|-
+!  style="text-align:left;" |LoE {{#info: Level of evidence|note}}
+| [[LoE::{{{LoE|}}}]]
+|-
+!  style="text-align:left;" |Outcome timeline {{#info: Data collection times|note}}
+| [[Outcome timeline::{{{Outcome timeline|}}}]]
+|-
+|}
+[[Category:RCT study]]
+</includeonly>

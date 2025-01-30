@@ -1,0 +1,24 @@
+<noinclude>
+{{#template_params:}}
+</noinclude>
+{{#ask:
+ [[-Has subobject::{{FULLPAGENAME}}]]
+ [[Outcome name::+]]
+ |?Outcome name
+ |?Outcome type
+ |?Outcome specification
+ |?Type of measurement
+ |?Results during intervention
+ |?Results after intervention
+ |?Bias arising from the randomization process
+ |?Bias due to deviation from intended intervention (assignment to intervention)
+ |?Bias due to deviation from intended intervention (adhering to intervention) 
+ |?Bias due to missing outcome data
+ |?Bias in measurement of the outcome
+ |?Bias in selection of the reported result
+ |?Other sources of bias
+ |?Overall RoB judgment
+ |sort=Order number
+ |format=template
+ |template=OutcomeQueryTemplate
+}}

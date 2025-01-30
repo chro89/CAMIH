@@ -1,0 +1,11 @@
+<includeonly>
+[[Category:Author]]
+<br>
+{|
+| '''This author is part of the following publications:'''
+|}
+
+{{#ask: [[Author::~*"{{FULLPAGENAME}}"*]]
+ | format=ol
+}}
+</includeonly>
